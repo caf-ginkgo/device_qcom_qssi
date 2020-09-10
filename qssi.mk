@@ -111,6 +111,10 @@ TARGET_USES_RRO := true
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
 endif
 
 # default is nosdcard, S/W button enabled in resource
