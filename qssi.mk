@@ -108,9 +108,6 @@ TARGET_USES_QCOM_BSP := false
 # RRO configuration
 TARGET_USES_RRO := true
 
-TARGET_USES_NQ_NFC := true
-
-
 # default is nosdcard, S/W button enabled in resource
 PRODUCT_CHARACTERISTICS := nosdcard
 BOARD_FRP_PARTITION_NAME := frp
