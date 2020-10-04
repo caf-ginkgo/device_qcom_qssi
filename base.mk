@@ -773,7 +773,6 @@ PRODUCT_PACKAGES := \
     netutils-wrapper-1.0 \
     Provision \
     Protips \
-    QuickSearchBox \
     Settings \
     Sync \
     SystemUI \
