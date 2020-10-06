@@ -108,9 +108,6 @@ endif
 # Enable sensor multi HAL
 USE_SENSOR_MULTI_HAL := true
 
-#Enable INTERACTION_BOOST
-TARGET_USES_INTERACTION_BOOST := true
-
 #Enable DRM plugins 64 bit compilation
 TARGET_ENABLE_MEDIADRM_64 := true
 
