@@ -114,6 +114,15 @@ TARGET_USES_QCOM_BSP := false
 # RRO configuration
 TARGET_USES_RRO := true
 
+# Gapps
+ifneq ($(VANILLA_BUILD),true)
+$(warning Building with gapps and pixel component)
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
+else
+$(warning Building vanilla)
+endif
+
 # Dex
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
