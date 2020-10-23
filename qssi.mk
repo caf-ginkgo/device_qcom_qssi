@@ -230,6 +230,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qfp=true
 
+# Xiaomi Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # USB default HAL
 PRODUCT_PACKAGES += \
