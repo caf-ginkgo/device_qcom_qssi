@@ -101,8 +101,8 @@ PRODUCT_BRAND := qti
 PRODUCT_MODEL := qssi system image for arm64
 
 # Build
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys
-BUILD_DESCRIPTION := coral-user 11 RP1A.201005.004 6782484 release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
+BUILD_DESCRIPTION := coral-user 11 RP1A.201105.002 6869500 release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
